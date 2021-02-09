@@ -1,0 +1,105 @@
+.container{
+    padding:50px 16px;
+    padding-bottom: 16px;
+    margin-top: 100px;
+    background: var(--whitegray);
+    box-sizing: border-box;
+}
+.content1{
+    font-size: 24px;
+    font-family: var(--p-font);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content2{
+    font-size: 15px;
+    font-family: var(--s-font);  
+}
+.content3{
+    font-size: 13px;
+    font-family: var(--s-font);   
+}
+.content4{
+    font-size: 10px;
+    font-family:var(--s-font);
+}
+.flex1{
+    flex:1;
+}
+.flex2{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper1{
+    display: flex;
+    width: 100%;
+    padding:0px 48px;
+    box-sizing: border-box;
+    padding-bottom:32px;
+    border-bottom: 2px solid var(--graphwhite);
+}
+.wrapper1column{
+    width: 80%;
+    min-width: 200px;
+}
+.inputcontainer{
+    display: flex;
+    width: 100%;
+    margin-top: 12px;
+}
+.inputcontainer > input{
+    width: 100%;
+    background: lightgray;
+    border:0px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    height:30px;
+    outline: none;
+}
+.subscribebutton{
+    height:30px;
+    background: var(--secondary-blue);
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    margin-left: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color:#fff;
+    justify-content: center;
+}
+
+
+.wrapper2{
+ display: flex;
+ width: 100%;
+ padding:0px 48px;
+ margin-top: 32px;
+ box-sizing: border-box;
+}
+.wrapper2row1{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.wrapper2row1 > div{
+    white-space: nowrap;
+    margin-left:20px;
+}
+.copyright{
+    text-align: right;
+    margin-top: 8px;
+}
+.socialcontent{
+    display: flex;
+}
+.socialcontent>div{
+    margin-left: 8px;
+}
+.resource{
+    flex:1;
+}
+.resource>div{
+    margin-top: 8px;
+}

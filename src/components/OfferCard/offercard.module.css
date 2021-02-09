@@ -2,4 +2,51 @@
     background: var(--yellowgreen);
     width :405px ;
     height :340px ;
+    box-sizing: border-box;
+    font-family: var(--s-font);
+    color:#000;
+    padding: 32px;
+    margin-left: 20px;
+}
+.offerleft{
+    color:var(--secondary-blue);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.desp{
+    font-size:15px;
+    margin-bottom: 4px;
+}
+.amount{
+font-weight: bold;
+font-size: 35px;
+margin-bottom: 4px;
+}
+.amount > span{
+    vertical-align: super;
+    font-size: 22px;
+}
+.crossed{
+    text-decoration: line-through;
+    text-decoration-color:red ;
+    color:var(--blackgray);
+    font-size: 13px;
+    font-weight: bold;
+}
+.freeship{
+    margin-top: 4px;
+    font-size: 10px;
+    color:var(--orange);
+    font-weight: bold;
+}
+.content{
+    font-size: 15px;
+    margin-top: 48px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.content2{
+    font-size: 15px;
+    line-height: 24px;
 }

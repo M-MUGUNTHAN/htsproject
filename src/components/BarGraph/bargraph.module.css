@@ -1,5 +1,43 @@
 .container{
 width: 710px;
 height: 340px;
+box-sizing: border-box;
+padding:48px;
+padding-bottom: 0px;
 background: var(--graphwhite);
+margin-left: 16px;
+}
+.wrapper{
+width:100%;
+background: #fff;
+box-sizing: border-box;
+padding:30px 16px;
+}
+.wrapper >div{
+    height:35px;
+    display: flex;
+    align-items: center;
+    color:#000;
+    font-size: 13px;
+    font-family: var(--s-font);
+    font-weight: bold;
+    padding-left:16px;
+    box-sizing: border-box;
+}
+.seemore{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 24px;
+    font-size: 22px;
+}
+.arrowcontainer{
+  margin-left: 16px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: lightgray;
 }

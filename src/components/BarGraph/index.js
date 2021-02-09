@@ -10,7 +10,7 @@ export default function BarGraph(props) {
     ]
     return (
         <div className={styles.container}>
-            <div>
+            <div className={styles.wrapper}>
                 {
                     products.map(({name,percentage,color})=>{
                         return(
@@ -19,9 +19,9 @@ export default function BarGraph(props) {
                     })
                 }
             </div>
-            <div>
+            <div className={styles.seemore}>
                 <div>See more</div>
-                <div><RightArrow/></div>
+                <div className={styles.arrowcontainer}><RightArrow/></div>
             </div>
         </div>
     )
