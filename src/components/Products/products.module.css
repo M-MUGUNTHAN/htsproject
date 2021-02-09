@@ -8,8 +8,11 @@
     height:397px;
     width:250px;
     box-sizing: border-box;
-    border:1px solid #000;
+    border:1px solid #000000;
     position: relative;
+    box-shadow:  0px 3px -1px #909090;
+    border: 2px solid #f5f5f5;
+    margin:12.5px 12.5px;
 }
 .toprated{
     font-family: var(--p-font);
@@ -70,4 +73,19 @@ margin-top: 4px;
     font-weight: bold;
     font-size: 15px;
     vertical-align: super;
+}
+.buttonWrapper{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 8px;
+font-size: 14px;
+font-family: var(--s-font);
+font-weight: bold;
+}
+.buybutton{
+    color:#fff;
+    background: var(--green);
+    padding: 8px 25px;
+    border-radius: 5px;
 }
