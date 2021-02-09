@@ -1,0 +1,58 @@
+.filtercontainer{
+    margin-left: 16px;
+    min-width :285px;
+    margin-right: 35px;
+    font-family: var(--s-font);
+    font-size: 15px;
+}
+.refine{
+height:40px;
+background: var(--green);
+padding-left: 32px;
+color:#fff;
+display: flex;
+align-items: center;
+}
+.wrapper{
+    margin-left: 32px;
+    margin-top: 16px;
+    margin-right: 32px;
+}
+.clearall{
+    color:var(--lightblue);
+    margin-bottom: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.deptWrapper{
+    padding-bottom:8px;
+    border-bottom: 1px solid var(--blackgray);
+}
+
+.header{
+font-weight: bold;
+margin-bottom:8px;
+}
+
+.brandWrapper{
+    margin-top: 16px;
+}
+.deptWrapper > div,.brandWrapper > div{
+    margin-bottom: 8px;
+}
+
+/*     Checkbox css  */
+.checkboxContainer{
+    display: flex;
+    align-items: center;
+}
+.checkboxWrapper{
+    height:15px;
+    width:15px;
+    border:2px solid var(--blackgray);
+    border-radius: 4px;
+}
+.label{
+margin-left: 8px;
+}

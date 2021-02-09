@@ -4,8 +4,15 @@
   --blackgray:#909090;
   --primary-blue:#0480C8;
   --orange:#FF9153;
-  --light-blue:#00ACEC;
+  --lightblue:#00ACEC;
   --yellowgreen:#AEDB02;
   --graphwhite:#E9E7E2;
   --secondary-blue:#007AFF;
+  --p-font:"Times New Roman", Times, serif;
+  --s-font:Arial, Helvetica, sans-serif;
+}
+.app-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

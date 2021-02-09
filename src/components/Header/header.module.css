@@ -1,0 +1,20 @@
+.header{
+background-color: var(--whitegray);
+color:var(--green);
+width:100%;
+height:30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:0px 16px;
+box-sizing: border-box;
+font-family: var(--s-font);
+font-size: 13px;
+}
+.bold{
+    font-weight: 700;
+}
+.join{
+    cursor: pointer;
+    font-weight: 700;
+}

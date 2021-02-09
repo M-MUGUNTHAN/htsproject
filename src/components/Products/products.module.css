@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*    CARD css   */
+.cardContainer{
+    height:397px;
+    width:250px;
+    box-sizing: border-box;
+    border:1px solid #000;
+    position: relative;
+}
+.toprated{
+    font-family: var(--p-font);
+    font-size: 13px;
+    font-weight: bold;
+    color:#fff;
+    background: var(--lightblue);
+    position: absolute;
+    top:8px;
+    left:8px;
+    padding:3px 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagecontainer{
+    width:100%;
+    padding: 16px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+.image{
+    width:100%;
+    height:auto;
+}
+.content{
+margin:0px 12px;
+}
+.description{
+    font-size: 15px;
+    font-family: var(--p-font);
+}
+.shipping{
+    color:var(--lightblue);
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.amountWrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 4px;
+}
+.crossedAmount{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: var(--p-font);
+}
+.amount{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: var(--p-font); 
+}
+.amount>span{
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: super;
+}
