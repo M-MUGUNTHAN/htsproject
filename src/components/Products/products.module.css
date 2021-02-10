@@ -40,7 +40,8 @@
     height:auto;
 }
 .content{
-margin:0px 12px;
+margin:0px 10px;
+margin-top: 8px;
 }
 .description{
     font-size: 15px;
@@ -50,7 +51,8 @@ margin:0px 12px;
     color:var(--lightblue);
     font-size: 13px;
     font-weight: bold;
-    margin-top: 16px;
+    margin-top: 10px;
+    height:18px;
 }
 
 .amountWrapper{
@@ -86,6 +88,13 @@ font-weight: bold;
 .buybutton{
     color:#fff;
     background: var(--green);
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+.outofstock{
+    background: var(--whitegray);
+    color:var(--blackgray);
+    margin-top:16px;
     padding: 8px 25px;
     border-radius: 5px;
 }

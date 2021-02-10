@@ -13,7 +13,9 @@ export default function Footer(props) {
               </div>
               <div className={`${styles.flex2}`}>
                   <div  className={styles.wrapper1column}>
-                        <div className={styles.content3}>Subscribe to our Newsletter</div>
+                        <div className={styles.content3}>
+                            Subscribe to our Newsletter
+                        </div>
                         <div className={styles.inputcontainer}>
                             <input placeholder="email address"/>
                             <div className={`${styles.content3} ${styles.subscribebutton}`}>Subscribe</div>
