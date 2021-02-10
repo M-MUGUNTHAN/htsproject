@@ -38,6 +38,8 @@ cursor: auto !important;
 
 .brandWrapper{
     margin-top: 16px;
+    padding-bottom:8px;
+    border-bottom: 1px solid var(--blackgray);
 }
 .deptWrapper > div,.brandWrapper > div{
     margin-bottom: 8px;
