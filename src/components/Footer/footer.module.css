@@ -68,6 +68,8 @@
     border-radius: 4px;
     color:#fff;
     justify-content: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 
@@ -86,6 +88,8 @@
 .wrapper2row1 > div{
     white-space: nowrap;
     margin-left:20px;
+    cursor: pointer;
+    user-select: none;
 }
 .copyright{
     text-align: right;
@@ -96,10 +100,14 @@
 }
 .socialcontent>div{
     margin-left: 8px;
+    cursor: pointer;
+    user-select: none;
 }
 .resource{
     flex:1;
 }
 .resource>div{
     margin-top: 8px;
+    cursor: pointer;
+    user-select: none;
 }

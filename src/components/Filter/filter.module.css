@@ -33,6 +33,7 @@ align-items: center;
 .header{
 font-weight: bold;
 margin-bottom:8px;
+cursor: auto !important;
 }
 
 .brandWrapper{
@@ -40,6 +41,7 @@ margin-bottom:8px;
 }
 .deptWrapper > div,.brandWrapper > div{
     margin-bottom: 8px;
+    cursor: pointer;
 }
 
 /*     Checkbox css  */
@@ -48,6 +50,7 @@ margin-bottom:8px;
     align-items: center;
 }
 .checkboxWrapper{
+    position: relative;
     height:15px;
     width:15px;
     border:2px solid var(--blackgray);

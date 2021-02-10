@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./products.module.css";
-import prod1 from "../../assets/prod3.png";
-export default function Card({isRated,image,description,isFreeShipping,oldAmount,newAmount,paisa,inStock}) {
+import CountButton from './CountButton';
 
+export default function Card({isRated,image,description,isFreeShipping,oldAmount,newAmount,paisa,inStock}) {
+    const[count,setCount]=useState(1);
+    const[isAdded,setAdded]=useState(false);
+    const handlebuy=()=>{
+    setAdded(true);
+    setCount(1);
+   }
+   useEffect(()=>{
+  if(count===0){
+      setAdded(false);
+  }
+   },[count])
     return (
         <div className={styles.cardContainer}>
             {
@@ -40,7 +51,13 @@ export default function Card({isRated,image,description,isFreeShipping,oldAmount
                 <div className={styles.buttonWrapper}>
                     {
                         inStock?
-                        <div className={styles.buybutton}>Buy</div>
+                        !isAdded?
+                        <div onClick={()=>handlebuy()} className={styles.buybutton}>Buy</div>
+                        :
+                        <CountButton
+                        count={count}
+                        setCount={setCount}
+                        />
                         :
                         <div className={styles.outofstock}>Out of stock</div>
                     }
